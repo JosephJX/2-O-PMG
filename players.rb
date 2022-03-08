@@ -8,10 +8,7 @@ class Players
 
  
   def lose_life
-    lives -= 1
+    @lives -= 1
   end
 
-  def is_alive?
-    @lives >= 1
-  end
 end
