@@ -6,8 +6,9 @@ class Players
     @lives = 3
   end
 
-  def wrong
-    @lives -= 1
+ 
+  def lose_life
+    lives -= 1
   end
 
   def is_alive?
