@@ -29,6 +29,7 @@ class Game
     
     puts "----- NEW TURN -----"
   
+    end
   end
 
 end 
